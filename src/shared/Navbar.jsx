@@ -76,7 +76,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="primary-btn">Try it in Google Docs</a>
+          <a className="secondary-btn">Try it in Google Docs</a>
         </div>
       </div>
     </div>
