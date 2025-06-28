@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Resume Sync",
+  title: "Resume Sync | Update your resume on Drive without any extra steps",
   keywords: ["resume", "sync"],
   description: "description",
 };
@@ -23,6 +23,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-base-200`}
+        style={{
+          background: "#e3edff",
+          backgroundImage:
+            "radial-gradient(circle, rgba(227, 237, 255, 1) 0%, rgba(248, 249, 253, 1) 50%)",
+        }}
       >
         <header className="fixed right-0 left-0 top-0 z-50 bg-base-100 shadow-sm">
           <Navbar />
