@@ -13,7 +13,7 @@ export default function Home() {
       >
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-5xl font-bold text-base-content">
+            <h1 className="text-5xl font-bold text-base-content tracking-[-0.4px] leading-none">
               Update your resume on Drive without any extra steps
             </h1>
             <p className="py-6 text-base-content-secondary">
