@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import logoPng from "@/assets/icons/logo.png";
-import Link from "next/link";
 
 export default function Navbar() {
   return (

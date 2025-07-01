@@ -6,7 +6,7 @@ export default function SectionTitle({ name, title }) {
       <span className="text-xs font-medium text-primary uppercase text-center">
         {name}
       </span>
-      <h2 className="text-3xl text-base-content font-semibold">{title}</h2>
+      <h2 className="text-4xl text-base-content font-semibold">{title}</h2>
     </div>
   );
 }

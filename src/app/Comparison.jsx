@@ -5,11 +5,11 @@ import SectionTitle from "@/components/SectionTitle";
 
 export default function Comparison() {
   return (
-    <div className="py-32">
+    <div className="py-32 px-5">
       <SectionTitle name="Comparison" title="Why Resume Sync?" />
-      <div className="flex justify-center gap-6">
+      <div className="flex flex-col lg:flex-row lg:justify-center gap-6">
         {/* without resume sync */}
-        <div className="bg-red-50 px-6 py-12 min-w-sm rounded-lg text-center">
+        <div className="bg-red-50 px-6 py-12 lg:min-w-sm rounded-lg text-center">
           <span className="text-xl font-semibold text-red-900">
             Without Resume Sync 😓
           </span>
@@ -23,7 +23,7 @@ export default function Comparison() {
           </ul>
         </div>
         {/* with resume sync */}
-        <div className="bg-base-200 px-6 py-12 min-w-sm rounded-lg text-center">
+        <div className="bg-base-200 px-6 py-12 lg:min-w-sm rounded-lg text-center">
           <span className="text-xl font-semibold text-base-content">
             With Resume Sync 😊
           </span>

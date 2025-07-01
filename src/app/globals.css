@@ -37,10 +37,10 @@ body {
 
 @layer components {
   .primary-btn {
-    @apply btn bg-primary border-none rounded-full text-primary-content px-8 h-12 font-semibold hover:bg-primary/90;
+    @apply btn bg-primary border-none rounded-full text-sm lg:text-base text-primary-content px-4 lg:px-8 h-12 font-semibold hover:bg-primary/90;
   }
 
   .secondary-btn {
-    @apply btn bg-transparent border border-primary rounded-full text-primary px-8 h-12 font-semibold hover:bg-primary hover:text-primary-content transition-colors duration-300;
+    @apply btn bg-transparent border border-primary rounded-full text-sm lg:text-base text-primary px-4 lg:px-8 h-12 font-semibold hover:bg-primary hover:text-primary-content transition-colors duration-300;
   }
 }

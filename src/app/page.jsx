@@ -13,10 +13,10 @@ export default function Home() {
       >
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-5xl font-bold text-base-content tracking-[-0.4px] leading-none">
+            <h1 className="text-3xl lg:text-5xl font-bold text-base-content tracking-[-0.4px] leading-none">
               Update your resume on Drive without any extra steps
             </h1>
-            <p className="py-6 text-base-content-secondary">
+            <p className="py-6 text-sm lg:text-base text-base-content-secondary">
               Stop reuploading your resume every time you make a change. Resume
               Sync turns your Google Doc into a live PDF — always ready to
               share.
