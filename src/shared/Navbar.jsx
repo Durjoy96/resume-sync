@@ -1,13 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import logoPng from "@/assets/icons/logo.png";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
     <div className="bg-base-100 shadow-sm">
       <div className="navbar max-w-screen-xl mx-auto">
         <div className="navbar-start">
-          <div className="dropdown">
+          {/* <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +31,7 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <a>Parent</a>
@@ -47,34 +48,24 @@ export default function Navbar() {
                 <a>Item 3</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <a className="text-xl font-semibold text-base-content flex items-center gap-1">
             <Image src={logoPng} className="w-8 h-8" /> Resume Sync
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        {/*         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
               <a>Item 3</a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="navbar-end">
           <a className="secondary-btn">Try it in Google Docs</a>
         </div>
