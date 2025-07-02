@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
           </h2>
           <p>
             If you have any questions or concerns about your privacy, please
-            contact with me at:
+            contact us at:
           </p>
           <p class="mt-2">
             <a
