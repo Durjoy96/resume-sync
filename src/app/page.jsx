@@ -1,4 +1,5 @@
 import Comparison from "./Comparison";
+import HowItWorks from "./HowItWorks";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         </div>
       </div>
       <Comparison />
+      <HowItWorks />
     </>
   );
 }
